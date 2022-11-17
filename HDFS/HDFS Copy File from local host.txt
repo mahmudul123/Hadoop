@@ -1,0 +1,5 @@
+run ---- hadoop jar /home/mahmudul/IdeaProjects/HDFSCOPY/target/HDFSCOPY-1.0-SNAPSHOT.jar CopyFile /home/mahmudul/test_one /
+
+1. Build the jar file using maven 
+2. Copy the absolute jar path
+3. hadoop jar "location of the jar"  CopyFile "location of the folder we are using to copy files" 

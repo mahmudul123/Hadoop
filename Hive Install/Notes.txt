@@ -1,0 +1,74 @@
+    1  wget https://archive.apache.org/dist/hadoop/core/hadoop-3.2.1/hadoop-3.2.1.tar.gz
+    2  tar xzf hadoop-3.2.1.tar.gz
+    3  ls
+    4  clear
+    5  sudo gedit .bashrc
+    6  clear;
+    7  sudo nano .bahrc
+    8  sudo nano .bashrc
+    9  source ~/.bashrc
+   10  readlink -f /usr/bin/javac
+   11  nano $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+   12  cat $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+   13  clear
+   14  nano $HADOOP_HOME/etc/hadoop/core-site.xml
+   15  nano $HADOOP_HOME/etc/hadoop/hdfs-site.xml
+   16  nano $HADOOP_HOME/etc/hadoop/core-site.xml
+   17  nano $HADOOP_HOME/etc/hadoop/mapred-site.xml
+   18  nano $HADOOP_HOME/etc/hadoop/yarn-site.xml
+   19  hdfs namenode -format
+   20  ~/hadoop-3.2.1/sbin/
+   21  cd ~/hadoop-3.2.1/sbin/
+   22  ls
+   23  start-dfs.sh
+   24  strat-yran.sh
+   25  start-yarn.sh
+   26  start-all.sh
+   27  jps
+   28  cd ~
+   29  clear
+   30  jps
+   31  ls
+   32  wget https://downloads.apache.org/hive/hive-3.1.2/apache-hive-3.1.2-bin.tar.gz
+   33  ls
+   34  tar xzf apache-hive-3.1.2-bin.tar.gz
+   35  ls
+   36  sudo nano .bashrc
+   37  source ~/.bashrc
+   38  sudo nano $HIVE_HOME/bin/hive-config.sh
+   39  hdfs dfs -mkdir /tmp
+   40  hdfs dfs -chmod g+w /tmp
+   41  hdfs dfs -mkdir -p /user/hive/warehouse
+   42  hdfs dfs -chmod g+w /user/hive/warehouse
+   43  SUDO rm $HIVE_HOME/lib/guava-19.0.jar
+   44  sudo rm $HIVE_HOME/lib/guava-19.0.jar
+   45  sudo cp $HADOOP_HOME/share/hadoop/hdfs/lib/guava-27.0-jre.jar HIVE_HOME/lib/
+   46  cd apache-hive-3.1.2-bin/bin/
+   47  sudo rm $HIVE_HOME/lib/guava-19.0.jar
+   48  sudo cp $HADOOP_HOME/share/hadoop/hdfs/lib/guava-27.0-jre.jar $HIVE_HOME/lib/
+   49  schematool -initSchema -dbType derby
+   50  hive
+   51  cd/
+   52  cd ~
+   53  jps
+   54  hive
+   55  schematool -initSchema -dbType derby
+   56  sudo reboot
+   57  ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+   58  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+   59  chmod 0600 ~/.ssh/authorized_keys
+   60  ssh localhost
+   61  start-all.sh
+   62  jps
+   63  hive
+   64  cd apache-hive-3.1.2-bin/bin
+   65  hive
+   66  cd ~
+   67  clear
+   68  jps
+   69  hive
+   70  schematool -initSchema -dbType derby
+   71  hive
+   72  cd apache-hive-3.1.2-bin/bin
+   73  hive
+   74  history

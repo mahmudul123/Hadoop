@@ -1,0 +1,10 @@
+Click Devices --> Insert Guest Addition CD Image --> Click the the CD/CD DRIVE --> Start terminal from the Folder 
+
+    1  findmnt
+    2  sudo /media/mahmudul/VBox_GAs_6.1.36
+    3  sudo /media/mahmudul/VBox_GAs_6.1.36/VBoxLinuxAdditions.run
+    4  sudo apt-get update
+    5  sudo apt-get install build-essential gcc make perl dkms
+    6  sudo /media/mahmudul/VBox_GAs_6.1.36/VBoxLinuxAdditions.run
+    7  sudo reboot
+    8  history
